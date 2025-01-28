@@ -1,0 +1,135 @@
+@use "ali";
+@use "all";
+@use "../node_modules/animate.css/animate.min.css";
+.input-header{
+    outline: none !important;
+    outline: transparent !important;
+    background-color: transparent !important;
+    padding: 0.5rem;
+    width: 500px;
+    border: none;
+    
+}
+.ff{
+    border: 2px solid rgba(12, 69, 241, 0.899);
+    border-radius: 40px;
+    
+    
+}
+.ff:hover{
+    background-color: rgba(8, 156, 209, 0.289);
+    transition: 1000ms;
+ 
+}
+.ul-header{
+    width: 416px;
+    & li{
+        list-style: none !important;
+        & a{
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.974);
+            padding-left: 1rem;
+            font-weight: 500;
+            font-size: x-large;
+            padding-bottom: 2rem;
+        }
+    }
+}
+.img-logo{
+    margin-top: 1rem;
+}
+.p-3{
+    padding: 0.5rem;
+}
+.top-header{
+    top: 0 !important;
+    position: fixed !important;
+    margin-top: -0.5rem;
+    background-color: silver;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px ;
+    box-shadow: 0px 9px 20px 0px #28293fbf;
+    border: 2px solid rgba(0, 0, 0, 0.27);
+}
+.m-a-t{
+    margin-top: 0.5rem;
+}
+.span-form{
+    color: rgba(12, 69, 241, 0.899);
+}
+.h:hover{
+    
+    color: rgba(12, 69, 241, 0.899) !important;
+    transition: ease-out 200ms ;
+    
+}
+.h:active{
+    color: rgba(201, 0, 0, 0.847);
+}
+.parent-meno{
+    position: relative;
+}
+.childe-meno{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3.25rem;
+    background-color: rgba(192, 192, 192, 0.712);
+    box-shadow: -1px 2px 20px 2px #00000095;
+    width: 325px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.parent-meno:hover{
+    & ul{
+        display: block;  
+    }
+}
+.m:hover{
+    color: rgba(64, 106, 106, 0.845);
+    transition: 400ms;
+}
+.m:active{
+    color: rgba(201, 0, 0, 0.847);
+}
+.div-foot{
+    margin: auto;
+    width: 40%;
+}
+.footer-end{
+    margin-top: 29.25rem;
+    background-color: rgba(192, 192, 192, 0.712) ;
+    box-shadow:5px -1px 20px 2px rgba(40, 41, 63,);
+    border-radius: 25px 25px 0px 0px ;
+    border: 1px solid rgba(0, 0, 0, 0.037);
+    & a{
+        text-decoration: none !important;
+    }
+}
+.text-center{
+    text-align: center;
+}
+.div-sol{
+    & a{
+       padding: 0.25rem;
+    }
+}
+.a-stayle-foot{
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.a-stayle-foot:hover{
+    color: rgba(20, 24, 138, 0.929);
+    transition: 600ms;
+}
+.a-conact-foot{
+    color: rgba(12, 69, 241, 0.899);
+}
+.div-end{
+    background-color:rgba(12, 69, 241, 0.447);
+    box-shadow: inset 2px 2px 13px 0px #000000;
+}
+
